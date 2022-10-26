@@ -285,6 +285,7 @@ button:active{
     background-color: gold;
     width: 100%;
   /*  overflow: hidden;*/
+  overflow: hidden;/****/
 }
 
 #sections .slider-container{
