@@ -368,17 +368,21 @@ button:active{
 }
 
 #sections section .box_1{
-    width: 292px; /*important 312*/
+    /*width: 292px; important 312*/
+    width: 23.1%;
     height: 420px;
     background-color: hsla(217, 96%, 44%, 0.548);
     margin: 6px;
+    margin: 12px;
+    margin-top: 3px;
     float: left;
 }
 
 #sections section .box_1 .titulo{
     margin-top: 21px;
     background-color: rgb(224, 131, 131);
-    width: 280px;
+    /*width: 280px;*/
+    width: 100%;
     height: 20px;
     font-size: 24px;
 }
@@ -387,25 +391,38 @@ button:active{
     background-color: lightyellow;
     display: block;
     margin: 5px;
+    margin-left: 3px;
+    margin-right: 2px;
+    margin-top: 9px;
+    margin-bottom: -3px;
     float: left;
-    width: 135px;
+    width: 46.5%;
+    width: 48%;
     height: 166px;
     text-align: center;
     line-height: 135px;
 }
 
+#sections section .box_1 .img1 img{
+    width: 100%;
+    margin-top: 12.7px;
+    margin-left: 5px;
+}
+
 
 #sections section .boxx{
-    width: 390px;
+    /*width: 390px;*/
+    width: 30.9%;
     height: 400px;
-    margin: 7px;
+    margin: 15px;
+    margin-left: 15.6px;
     background-color: rgb(25, 235, 77);
     float: left; 
 }
 
 #sections section .boxx .titulo{
     background-color: darkgreen;
-    width: 390px;
+    width: 100%;
     height: 20px;
     margin-top: 21px;
     text-align: center;
@@ -417,7 +434,8 @@ button:active{
     display: block;
     margin: 4px;
     float: left;
-    width: 184px;
+   /* width: 184px;*/
+    width: 47.1%;
     height: 160px;
     text-align: center;
     line-height: 135px;
@@ -425,10 +443,12 @@ button:active{
 }
 
 #sections section .boxx img{
-    width: 155px;
-    text-align: center;
-    margin: 2px;
+    /*width: 155px;*/
+    width: 79%;
+    margin-top: 7px;
+    margin-left: 10px;
 }
+
 
 #sections #frontend #logo{
     margin-top: 10px;
@@ -487,11 +507,56 @@ button:active{
 
 /*Responsive*/
 
+@media(max-width:1347px){
+    #sections section .box_1{
+        background-color: rebeccapurple;
+        margin: 11px;
+        margin-left: 12.4px;
+    }
+
+    #sections section .box_1 .img1 img{
+        margin-top: 12.7px;
+    }
+}
+
+@media(max-width:1345px){
+    #sections section .box_1{
+        background-color: rebeccapurple;
+        margin: 11px;
+        margin-left: 12.4px;
+    }
+
+    #sections section .box_1 .img1 img{
+        margin-top: 13.4px;
+    }
+}
+
+@media(max-width:1340px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.8%;
+    }
+    
+}
+
 @media(max-width:1316px){
     #sections .container .slider-container .content-slider{
         /*background-color: violet;*/
         width: 93%;
         margin-left: 26px;
+    }
+
+    #sections section .box_1 .img1 img{
+        margin-top: 14.7px;
+    }
+}
+@media(max-width:1314px){
+    #sections section .box_1{
+        /*width: 292px; important 312*/
+        width: 23%;
+    }
+    #sections section .box_1 .img1 img{
+        margin-top: 15px;
     }
 }
 
@@ -501,6 +566,9 @@ button:active{
         width: 93%;
         margin-left: 26px;
     }
+    #sections section .box_1 .img1 img{
+        margin-top: 15.7px;
+    }
 }
 
 @media(max-width:1300px){
@@ -509,13 +577,39 @@ button:active{
         width: 93%;
         margin-left: 24px;
     }
+    #sections section .box_1 .img1 img{
+        margin-top: 16.7px;
+    }
 }
 
+@media(max-width:1291px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.7%;
+    }   
+}
 
 @media(min-width: 1260px) and (max-width: 1290px){
     #sections .container .slider-container .content-slider{
         width: 93%;
         margin-left: 22px;
+    }
+    #sections section .box_1 .img1 img{
+        margin-top: 18.7px;
+    }
+}
+
+@media(max-width:1252px){
+    #sections section .box_1{
+        /*width: 292px; important 312*/
+        width: 22%;
+        margin-left: 20px;
+    }
+    #sections section .box_1 .img1{
+        width: 47.8%;
+    }
+    #sections section .box_1 .img1 img{
+        margin-top: 22.7px;
     }
 }
 
@@ -524,9 +618,29 @@ button:active{
         width: 93%;
         margin-left: 22px;
     }
+    #sections section .box_1 .img1 img{
+        margin-top: 23px;
+    }
 }
 
+@media(max-width:1245px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.6%;
+    }
+    
+}
 
+@media(max-width:1216px){
+    #sections section .box_1{
+        /*width: 292px; important 312*/
+        width: 22%;
+        margin-left: 20px;
+    }
+    #sections section .box_1 .img1 img{
+        margin-top: 24.6px;
+    }
+}
 
 @media(min-width:1200px) and (max-width: 1230px){
     #sections .container .slider-container .content-slider{
@@ -534,13 +648,34 @@ button:active{
         margin-left: 16px;
        /*background-color: red;*/
     }
+    #sections section .box_1 .img1 img{
+        margin-top: 24.9px;
+    }
+}
+@media(max-width:1210px){
+    #sections section .boxx .img1{
+       /* width: 184px;*/
+        width: 46.8%;
+        /*margin-left: 6px;*/
+    }
+    
 }
 
+@media(max-width:1202px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.5%;
+    }
+}
 
 @media(max-width: 1190px){
     #sections .container .slider-container .content-slider{
         width: 93%;
         margin-left: 15px;
+    }
+
+    #sections section .box_1 .img1 img{
+        margin-top: 25.6px;
     }
 }
 
@@ -548,6 +683,15 @@ button:active{
     #sections .container .slider-container .content-slider{
         width: 93%;
         margin-left: 15px;
+    }
+    #sections section .box_1 .img1 img{
+        margin-top: 27.3px;
+    }
+}
+@media(max-width:1163px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.4%;
     }
 }
 
@@ -557,6 +701,9 @@ button:active{
         margin-left: 14px;
        /* background-color: rgb(162, 255, 0);*/
     }
+    #sections section .box_1 .img1 img{
+        margin-top: 28.4px;
+    }
 }
 @media(max-width: 1140px){
     #sections .container .slider-container .content-slider{
@@ -564,6 +711,34 @@ button:active{
         margin-left: 12px;
        /* background-color: rgb(0, 255, 229);*/
     }
+    #sections section .box_1 .img1 img{
+        margin-top: 30.2px;
+    }
+}
+
+@media(max-width:1126px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.3%;
+    }
+}
+@media(max-width: 1116px){
+    #sections section .box_1{
+        /*width: 292px; important 312*/
+        width: 21.9%;
+        margin-left: 20px;
+    }
+    #sections section .box_1 .img1{
+        width: 47.5%;
+    }
+}
+@media(max-width:1114px){
+    #sections section .boxx .img1{
+       /* width: 184px;*/
+        width: 46.4%;
+        /*margin-left: 6px;*/
+    }
+    
 }
 
 @media(max-width: 1110px){
@@ -572,8 +747,25 @@ button:active{
         margin-left: 10px;
        /* background-color: rgb(25, 0, 255);*/
     }
+    /*HEREEE¡*/
 }
 
+@media(max-width:1092px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.2%;
+    }
+}
+@media(max-width: 1083px){
+    #sections section .box_1{
+        /*width: 292px; important 312*/
+        width: 21.7%;
+        margin-left: 20px;
+    }
+    #sections section .box_1 .img1 img{
+        margin-top: 33.4px;
+    } 
+}
 
 
 @media(max-width: 1080px){
@@ -592,6 +784,7 @@ button:active{
         /*background-color: rgb(255, 0, 204);*/
     }
 }
+
 
 
 @media(max-width: 1060px){
@@ -622,6 +815,13 @@ button:active{
         margin-left: 6px;
        /* background-color: rgb(255, 0, 0);*/
     }
+    /*******/
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30.1%;
+    }
+
+
 }
 
 
@@ -633,7 +833,22 @@ button:active{
        /* background-color: rgb(255, 0, 0);*/
     }
 }
-
+@media(max-width:1029px){
+    #sections section .boxx{
+        /*width: 390px;*/
+        width: 30%;
+    }
+}
+@media(max-width: 1022px){
+    #sections section .box_1{
+        /*width: 292px; important 312*/
+        width: 21.6%;
+        margin-left: 20px;
+    }
+    /*#sections section .box_1 .img1 img{
+        margin-top: 33.4px;
+    } */
+}
 @media(max-width: 1020px){
     
     #sections .container .slider-container .content-slider:nth-child(5){
